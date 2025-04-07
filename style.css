@@ -1,0 +1,107 @@
+* {
+    font-family: "Winky Sans", sans-serif;
+
+}
+
+.container {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: 30px;
+}
+
+.container__name {
+    font-size: 40px;
+}
+
+.container__designation {
+    font-size: 28px;
+}
+
+.container__button {
+    background-color: red;
+    color: white;
+    padding: 6px;
+}
+
+.container__link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.container2 {
+    padding-left: 30px;
+}
+
+.container3 {
+    background-color: pink;
+    display: inline-block;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.container4 {
+    display: inline-block;
+    height: 200px;
+    background-color: peru;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    vertical-align: top;
+
+}
+
+.container4__title {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .container4 {
+        margin-top: 10px;
+        width: 280px;
+        height: 250px;
+        vertical-align: top;
+    }
+
+    .container3 {
+        width:280 ;
+    }
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.footer__Link {
+    color: lightseagreen;
+}
+
+.contact-form {
+    margin-left: 30px;
+}
+
+.contact-form__input {
+    margin-left: 30px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+}
+
+.contact-form__textarea {
+    margin-left: 30px;
+    width: 200px;
+}
+
+.contact-form__submit {
+    margin-left: 30px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
