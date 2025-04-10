@@ -1,1 +1,1 @@
-# Portfolio
+I created a simple and responsive personal portfolio website using HTML and CSS. The site includes sections like About Me, Projects, and Contact. I also implemented a contact form using basic HTML form elements for user interaction. This project helped me improve my frontend development skills and practice building structured, clean layouts using CSS.
